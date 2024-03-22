@@ -48,7 +48,8 @@ Power Query is a data transformation and preparation tool developed by Microsoft
 Query functions are used to manipulate data in Google Sheets. They bring powerful, database-style searching to your spreadsheet so you can look up and filter your data in any format of your liking. Aggregation operations are also carried out on it.
 
 *Query Function Syntax*
-=QUERY(data,query,[headers])
+**=QUERY(data,query,[headers])**
+
 The "=QUERY" has three (3) defined parameters:
 - Data: The range of data that needs to be analyzed
 - Query: The way data is processed, always enclosed in quotations
@@ -75,6 +76,56 @@ PowerQuery
 =QUERY(SkilHarvest_Stationary_Supplies!A1:H44, "select A,B WHERE B LIKE '%ard'", 1)
 ```
 ![](Images/Q1-Sol-Excerpt.png)
+
+#                *Question 2 Solution*
+```
+PowerQuery
+=QUERY(SkilHarvest_Stationary_Supplies!A1:H44, "select A,B WHERE B LIKE '%ew'",1)
+```
+![](Images/Q2-Sol-Excerpt.png)
+#                *Question 3 Solution*
+```
+PowerQuery
+=QUERY(SkilHarvest_Stationary_Supplies!A1:H44, "select A,B WHERE B LIKE 'R%'", 1)
+```
+![](Images/Q3-Sol-Excerpt.png)
+#                *Question 4 Solution*
+```
+PowerQuery
+=QUERY(SkilHarvest_Stationary_Supplies!A1:H44, "select E,F,H WHERE (E='Aug' or E='Sep') and F=2014",1)
+```
+![](Images/Q4-Sol-Excerpt.png)
+#                *Question 5 Solution*
+```
+PowerQuery
+=QUERY(SkilHarvest_Stationary_Supplies!A1:H44, "SELECT SUM(H), count(H), min(H), max(H)", 1)
+```
+![](Images/Q5-Sol-Excerpt.png)
+#                *Question 6 Solution*
+```
+PowerQuery
+=QUERY(SkilHarvest_Stationary_Supplies!A1:H44, "select A,B,C,F,H WHERE C LIKE '%sk'", 1)
+```
+![](Images/Q6-Sol-Excerpt.png)
+#                *Question 7 Solution*
+```
+PowerQuery
+=QUERY(SkilHarvest_Stationary_Supplies!A1:H44, "select B,C WHERE C='Pen Set' or C='Binder'", 1)
+```
+![](Images/Q7-Sol-Excerpt.png)
+#                *Question 8 Solution*
+```
+PowerQuery
+=QUERY(SkilHarvest_Stationary_Supplies!A1:H44, "select A,B,C,F,H WHERE C LIKE 'Pen%'",1)
+```
+![](Images/Q8-Sol-Excerpt.png)
+#                *Question 9 Solution*
+```
+PowerQuery
+=QUERY(SkilHarvest_Stationary_Supplies!A1:H44, "select A,B,F WHERE ((A='East' or A='Central') and F=2014)", 1)
+```
+![](Images/Q9-Sol-Excerpt.png)
+
 
 # 4.0 INTRODUCTION TO POWER BI
 Power BI is a Data Visualization and Business Intelligence tool that converts data from different data sources to interactive dashboards and BI reports.
