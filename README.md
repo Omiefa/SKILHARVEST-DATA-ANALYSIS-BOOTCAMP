@@ -40,7 +40,7 @@ We learnt how to create a Github account, create repository and how to develop a
 Power Query is a data transformation and preparation tool developed by Microsoft.
 
 - **Data:** Data is information like facts, observations, perceptions, numbers, characters and image used to analyze something or make decisions
-![](Data_Workflow.PNG)
+![](Data_Workflow.png)
 - **Information:** is a summary of the raw data. eg. positive or negative results that happen after some specific change.
 - **Insight:** They are conclusions based on the results of information analysis. Meaningful business decisions are based on insight.
 
