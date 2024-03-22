@@ -40,7 +40,7 @@ We learnt how to create a Github account, create repository and how to develop a
 Power Query is a data transformation and preparation tool developed by Microsoft.
 
 - **Data:** Data is information like facts, observations, perceptions, numbers, characters and image used to analyze something or make decisions
-![](Data_Workflow.png)
+![](Images/Data_Workflow.png)
 - **Information:** is a summary of the raw data. eg. positive or negative results that happen after some specific change.
 - **Insight:** They are conclusions based on the results of information analysis. Meaningful business decisions are based on insight.
 
@@ -54,7 +54,27 @@ The "=QUERY" has three (3) defined parameters:
 - Query: The way data is processed, always enclosed in quotations
 - Header: An optional number for when you need to indicate the number of header rows in your data
 
+     # **Excerpt From The Datasheet**
+   ![](Images/DataSetExcerpt.png)
 
+# 3.1 POWER QUERY EXERCISES
+
+1. Shows sales rep name end in "ard"
+2.  Shows sales rep name end in "ew"
+3.  Shows sales rep name start with "R"
+4.  Show sales in Auguest and September
+5.  Show the sum, count, min and max values of the data
+6.  Show sales of items that ends with 'sk', include their region, sales rep and year
+7.  Shows pen set and binder items
+8.  Show sales of items that start with 'Pen', include their region, sales rep and year
+9.  Show sales rep in East and Central in 2014 only
+
+#                *Question 1 Solution*
+```
+PowerQuery
+=QUERY(SkilHarvest_Stationary_Supplies!A1:H44, "select A,B WHERE B LIKE '%ard'", 1)
+```
+![](Images/Q1-Sol-Excerpt.png)
 
 # 4.0 INTRODUCTION TO POWER BI
 Power BI is a Data Visualization and Business Intelligence tool that converts data from different data sources to interactive dashboards and BI reports.
