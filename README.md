@@ -10,7 +10,7 @@ The following below is the bootcamp contents:
 4. Introduction to Power BI
 5. Capstone Project 1
 6. Capstone Project 2
-7. Power BI DAX Expressions
+8. Power BI DAX Expressions
 
 # 1.0 SPREADSHEETS FUNDAMENTALS
 Spreadsheets are computer program that can capture, display and manipulate data arranged in rows and columns. They are very power tools used for organizing, analyzing, manipulating and presenting data.
@@ -138,4 +138,10 @@ We made use of two data sets for practices. Below are some of the amazing dashbo
 For the project, I was the team lead of team of 9 members and we were to undertake a data analytics project. The project was about carry out indepth analysis of the demographic and professional data collected from participants enrolled in the SkilHarvest Data Analysis Bootcamp 2024
 
 I have created a separate GitHub project for this exercise: [View Project Here](https://github.com/Omiefa/SkilHarvest-Cohort2-Demography)
+
+# 6.0 CAPSTONE PROJECT 2: TEAM INSIGHTINNOVATORS
+
+For the project, I was the team lead of team of 9 members and we were to undertake a data analytics project. The project was about carry out indepth analysis of any dataset. We downloaded Pizza Place Sales dataset from Kaggle for this project.
+
+I have created a separate GitHub project for this exercise:[View Project Here](https://github.com/Omiefa/AZ-Pizza-Company-Sales-Report)
 
